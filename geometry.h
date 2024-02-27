@@ -2,9 +2,11 @@
 #define __GEOMETRY_H
 
 #include <stdbool.h>
+#include <assert.h>
 #include <math.h>
 #include <aio.h> 
 #include "colors.h"
+#include "screen.h"
 #include "gfx.h"
 
 #define M_PI 3.14159265358979323846
@@ -23,7 +25,7 @@ void line(point_t a, point_t b, color c);
 void square(int side, int pos_x, int pos_y, color border, color fill, int thickness);
 void draw_grid_of_squares();
 void arc(int radius, int pos_x, int pos_y, int deg, color border);
-void add_plane();
+void add_axis();
 void print_point(point_t p);
 
 #endif
