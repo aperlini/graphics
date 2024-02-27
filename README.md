@@ -1,8 +1,14 @@
 # C Graphics API
 
-based on [GFX](http://www.nd.edu/~dthain/courses/cse20211/fall2013/gfx) libs to draw basic elements (points, lines, and misc shapes)
+Based on [GFX](http://www.nd.edu/~dthain/courses/cse20211/fall2013/gfx) libs to draw basic elements (points, lines, and misc shapes)
 
-![default](default.png) 
+By default all elements are drawn relative to the origin, which is positioned in the *top left* corner at coordinate (0,0).  
+
+<img src="img/coordinate_space.svg" alt="coordinate_space" style="zoom:75%;" /> 
+
+The api offers abstractions to translate and position shapes into the euclydian space.
+
+![default](img/default.png) 
 
 ## Requirements
 
